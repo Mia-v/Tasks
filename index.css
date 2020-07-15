@@ -89,13 +89,15 @@ body{
 
 header,
 footer{
-	display: fixed;
 	width: 100%;
-	height: auto;
+	height: 75px;
 	padding: 10px;
 }
 
 header{
+	position: sticky;
+	top: 0;
+	left: 0;
 	background-color: lightgreen;
 }
 
@@ -103,8 +105,16 @@ h1{
 	padding-left: 50px;
 }
 
+.content-n-footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 1200px;
+
+}
+
 .items{
-	height: 100px;
+	height: 1000px;
 	padding: 10px;
 	margin: 10px;
 }
