@@ -5,7 +5,14 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Roboto', sans-serif;
+	color: #292929fa;
+	background-color: #fff;
+	
+	.contentsText{
+		font-family: 'Noto Sans JP', sans-serif;
+		font-size: 1rem;
+	}
 }
 
 .App {

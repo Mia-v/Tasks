@@ -1,17 +1,24 @@
 .menu-list {
 	display: block;
 	width: 150px;
-	height: 100vh;
+	height: 100%;
 	box-sizing: border-box;
-	background-color: #eee;
+	background-color: #292929fa;
 	transition: all .23s;
-	list-style: none;
 	padding: 50px 20px;
 	margin: 0;
 	z-index: 2;
+	list-style: none;
 	text-align: right;
 	line-height: 20px;
 	font-size: 14px;
+
+	.nav-items{
+		text-decoration: none;
+		color: #fff;
+		font-size: 1rem;
+		padding: 10px;
+	}
 
 	@media (min-width: 480px) and (max-width: 768px) {
 		margin-left: -150px;

@@ -17,9 +17,9 @@ const Navigation = () => {
 				<span className="three"></span>
 			</label>
 			<ul className="menu-list" >
-				<li><a href="#">About</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">About</a></li>
+				<li><a href="#" className="nav-items">About</a></li>
+				<li><a href="#" className="nav-items">About</a></li>
+				<li><a href="#" className="nav-items">About</a></li>
 			</ul>
 		</div>
 	)
