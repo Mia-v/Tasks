@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import { Provider } from 'react-redux';
-import store from './Redux/store.js';
+import store from './redux/store.js';
 
 import Navigation from "./components/Navigation/Navigation.js";
 import Header from './components/Header/Header.js';
